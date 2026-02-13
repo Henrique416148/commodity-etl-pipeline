@@ -1,3 +1,7 @@
+![Python](https://img.shields.io/badge/python-3.8+-blue.svg)
+![PostgreSQL](https://img.shields.io/badge/postgresql-12+-blue.svg)
+![License](https://img.shields.io/badge/license-MIT-green.svg)
+
 # Commodity ETL Pipeline
 
 Um pipeline ETL robusto para extrair dados de commodities do Yahoo Finance e armazená-los em um banco de dados PostgreSQL.
@@ -23,7 +27,7 @@ cd commodity-etl-pipeline
 ### 2. Criar ambiente virtual
 ```bash
 python -m venv .venv
-source .venv/bin/activate  # No Windows: .venv\Scripts\activate
+source venv/bin/activate  # No Windows: .venv\Scripts\activate
 ```
 
 ### 3. Instalar dependências
